@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robo Wunderkind | Learn to code through fun and play</title>
+    <link rel="shortcut icon" href="./static/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./static/css/mystyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- heading  -->
+    <header>
+        <!-- navigation  -->
+        <nav class="navbar navbar-expand-lg bg-light shadow mynav">
+            <div class="container-fluid">
+                <a href=""><img src="./static/img/robo_wunderkind_logo.svg" class="ms-5" alt="" srcset=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between bg-light" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto  mb-2 mb-lg-0 ">
+                        <li class="nav-item nav-padding dropdown ">
+                            <a class="nav-link dropdown-toggle fw-bold text-dark" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Educators
+                            </a>
+                            <ul class="dropdown-menu rounded-3" aria-labelledby="navbarDropdown">
+                                <div class="d-flex flex-column w-50">
+                                    <li>
+                                        <div class="d-flex mt-2 p-2  me-5 pe-5 ps-5">
+                                            <div class="logo-img"><img src="./static/img/logo/first-logo.png" alt=""
+                                                    srcset="" height="39px" width="39px"></div>
+                                            <div class="list-drop">
+                                                <a class="dropdown-item " href="#">
+                                                    <span class="fw-bold fs-5 txt">For Educators</span> <br>
+                                                    The STEAM solution for your classroom</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex mt-2 p-2      me-5 pe-5 ps-5">
+                                            <div class="logo-img"><img src="./static/img/logo/first-logo.png" alt=""
+                                                    srcset="" height="39px" width="39px"></div>
+                                            <div class="list-drop">
+                                                <a class="dropdown-item " href="#">
+                                                    <span class="fw-bold fs-5 txt">Curriculum, resources and
+                                                        training</span> <br>
+                                                    Helpful videos & downloads for your next class</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex mt-2 p-2  me-5 pe-5 ps-5">
+                                            <div class="logo-img"><img src="./static/img/logo/first-logo.png" alt=""
+                                                    srcset="" height="39px" width="39px"></div>
+                                            <div class="list-drop">
+                                                <a class="dropdown-item " href="#">
+                                                    <span class="fw-bold fs-5 txt">
+                                                        Where to buy</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="d-flex mt-2 p-2  me-5 pe-5 ps-5">
+                                            <div class="logo-img"><img src="./static/img/logo/first-logo.png" alt=""
+                                                    srcset="" height="39px" width="39px"></div>
+                                            <div class="list-drop">
+                                                <a class="dropdown-item " href="#contact">
+                                                    <span class="fw-bold fs-5 txt">Contact us</span> <br>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </div>
+
+                            </ul>
+
+                        </li>
+                        <li class="nav-item nav-padding">
+                            <a class="nav-link  fw-bold text-dark" aria-current="page" href="#">Starter Guide</a>
+                        </li>
+                        <li class="nav-item nav-padding">
+                            <a class="nav-link fw-bold text-dark" href="#">Blog</a>
+                        </li>
+
+                        <li class="nav-item nav-padding">
+                            <a class="nav-link fw-bold text-dark" href="">FAQs</a>
+                        </li>
+                        <li class="nav-item nav-padding">
+                            <a class="nav-link fw-bold text-dark" href="">About</a>
+                        </li>
+                        <li class="nav-item me-auto nav-padding">
+                            <button class="btn btn-success fw-bold " id="buttonstyle" type="submit">Shop</button>
+                        </li>
+                        <li class="nav-item ">
+                            <input class="form-control me-2 rounded-pill" type="search" id="search"
+                                placeholder="Search..." aria-label="Search" style="display: none; width: 150px;">
+                        </li>
+                        <li class="nav-item nav-padding">
+                            <button id="btn"><img src="./static/img/search.svg" alt="" height="35px"
+                                    width="35px"></button>
+                        </li>
+                        <li class="nav-item nav-padding mt-2 de">
+                            <a href="" class="fw-bold  text-decoration-none text-dark">DE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--first banner section  -->
+        <div class="container-xxl">
+            <!-- banner-1  -->
+            <div class="banner-1 ">
+                <div class="row">
+                    <div class="col-12 col-md-7 col-lg-7 col-sm-7">
+                        <div class="col-12 col-md-12 col-lg-12 col-sm-12">
+                            <h1 class="  banner-1-heading  mt-4 col-md-10 col-sm-12  col-12"> Learn to code through fun
+                                and play
+                            </h1>
+                            <h3 class="  mt-2 text-muted banner-1-sub-heading col-md-10 col-sm-12  col-11">Get creative
+                                with technology and solve
+                                real-life problems, in the classroom or at home. For 5 to 12-year-old children.</h3>
+                            <div class="col-12 col-md-12 col-lg-12 col-sm-12 shop">
+                                <div class="col-12 col-md-6 col-lg-6 col-sm-6 mt-4 ">
+                                    <button class="btn  fw-bold  " id="shop-now" type="submit">Shop now</button>
+                                </div>
+                                <div class="col-0 col-md-12 col-lg-6 col-sm-0 mt-4 ">
+                                    <a href="" class="steam-text">What is STEAM?</a>
+                                </div>
+                            </div>
+                            <!-- logos section  -->
+                            <div class="col-12 col-md-12 col-lg-12 col-sm-12 shop  mt-5 ps-5" id="logos-banner1">
+                                <div class="col-2 col-md-2 col-lg-2 col-sm-2 "><img src="./static/img/logo/1.svg" alt=""
+                                        class="logo-size"></div>
+                                <div class="col-2 col-md-2 col-lg-2 col-sm-2 "><img src="./static/img/logo/2.svg" alt=""
+                                        class="logo-size"></div>
+                                <div class="col-2 col-md-2 col-lg-2 col-sm-2 "><img src="./static/img/logo/3.svg" alt=""
+                                        class="logo-size"></div>
+                                <div class="col-2 col-md-2 col-lg-2 col-sm-2 "><img src="./static/img/logo/4.svg" alt=""
+                                        class="logo-size"></div>
+                                <div class="col-2 col-md-2 col-lg-2 col-sm-2 "><img src="./static/img/logo/5.svg" alt=""
+                                        class="logo-size"></div>
+                                <div class="col-0 col-md-2 col-lg-2 col-sm-2 "></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- short images -->
+                    <div class="col-5">
+                        <!-- banner-2  -->
+                        <div class="banner-2 mt-5 shadow"></div>
+                        <div class="small-image-1 shadow"></div>
+                        <div class="small-image-2 shadow"></div>
+                        <div class="small-image-3 shadow"></div>
+                        <div class="small-image-4 shadow"></div>
+                        <div class="small-image-5 shadow"></div>
+                        <div class="small-image-6 shadow"></div>
+                        <div class="small-image-7 shadow"></div>
+                        <div class="small-image-8 shadow"></div>
+                        <div class="small-image-9 shadow"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- second-banner section  -->
+            <section>
+                <div class="conatiner second-banner">
+                    <div class="row ms-3">
+                        <div class="col-12 col-md-6 col-lg-6 col-sm-6 part-1">
+                            <!-- second-banner-image section  -->
+                            <div class="second-banner-image1  shadow"></div>
+                            <div class="col-12 col-md-12 col-lg-12 col-sm-12  mt-3  d-flex ">
+                                <div class="col-12 col-md-6 col-lg-6 col-sm-12 ">
+                                    <div class="second-banner-image2 shadow "></div>
+                                </div>
+                                <div class="col-0 col-md-6 col-lg-6 col-sm-0 ps-2 ms-3">
+                                    <div class="second-banner-image3 shadow "></div>
+                                    <div class="second-banner-image4 mt-4 shadow"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- second-banner text section  -->
+                        <div class="col-12 col-md-6 col-lg-6 col-sm-6 part-2">
+                            <div class="second-banner-part">
+                                <h1 class="second-banner-part-1 "><span class="color-heading">Turning today’s kids
+                                        into</span> tomorrow’s
+                                    innovators</h1>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-12 col-sm-12">
+                                <h2 class="text-muted second-banner-part-2 ">Robo Wunderkind creates modern educational
+                                    tools that change the
+                                    way children learn at home or at school. Our kits make it easy to build robots in
+                                    just a
+                                    few minutes and learn how to program them with our accompanying app. Hands-on
+                                    resources
+                                    help to develop children’s cognitive skills and engage them in learning about
+                                    technology.</h2>
+                            </div>
+                            <div><button class="btn  fw-bold  " id="shop-now-1" type="submit">Shop now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+    <!-- carousel section  -->
+    <section class="third-banner-bg-image  banner-4-1">
+        <div class="col-12">
+            <h1 class="Robo text-center mt-5">How Robo Wunderkind works</h1>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6 col-sm-6 col-12">
+                                <div class="card card-1-1">
+                                    <img src="./static/img/card-1.jpg" class="card-img-top card-img-top-1-1" alt="...">
+                                    <div class="card-body">
+                                        <h3 class=" text-center mt-2 color-heading fw-bold fs-3">STEP 1</h3>
+                                        <p class="card-text card-text-1 fs-4 text-muted">Building robots using
+                                            color-coded building
+                                            blocks and customizing them with bricks or other materials of your choice.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-sm-6 col-12 card-hidden">
+                                <div class="card card-1-1">
+                                    <img src="./static/img/card-2.jpg" class="card-img-top card-img-top-1-1" alt="...">
+                                    <div class="card-body">
+                                        <h3 class=" text-center mt-2 color-heading fw-bold fs-3">STEP 2</h3>
+                                        <p class="card-text card-text-1 fs-4 text-muted">Connecting the creations using
+                                            one of three
+                                            coding levels within the Robo Wunderkind App: Live, Code, Blockly.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container mt-5 ">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6 col-sm-6 col-12">
+                                <div class="card card-1-1">
+                                    <img src="./static/img/banner-center-image.png"
+                                        class="card-img-top card-img-top-1-1" alt="...">
+                                    <div class="card-body">
+                                        <h3 class=" text-center mt-2 color-heading fw-bold fs-3">STEP 3</h3>
+                                        <p class="card-text card-text-1 fs-4 text-muted">Bringing the robots to life by
+                                            programming or remote controlling them. Interactive drag and drop icons make
+                                            them move, shine, display drawings, sense motion and more.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-sm-6 col-12 card-hidden">
+                                <div class="card card-1-1">
+                                    <img src="./static/img/small-banner3.jpg" class="card-img-top card-img-top-1-1"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h3 class=" text-center mt-2 color-heading fw-bold fs-3">STEP 4</h3>
+                                        <p class="card-text card-text-1 fs-4 text-muted">Having fun playing! Find
+                                            inspiration in the projects library or let your children’s imagination run
+                                            wild!.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev rounded-circle bg-dark ms-2" type="button"
+                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next rounded-circle bg-dark me-2" type="button"
+                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- sccial scection -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-12 col-sm-12 banner-4 ">
+                    <p class="education text-center  "><span class="color-heading">Coding education </span> <br>
+                        for all levels</p>
+                    <h3 class="text-center education-text text-muted">Our free Robo Wunderkind App offers learning
+                        opportunities for children of different ages and
+                        skill <br> levels. It guides them from the basics all the way to complex coding concepts, using
+                        in-app tutorials <br> across 3 levels.</h3>
+                </div>
+                <div class="col-md-1 col-lg-1 col-sm-1 col-0"></div>
+                <div class="col-md-2 col-lg-2 col-sm-2 col-0"></div>
+                <div class="col-md-2 col-lg-2 col-sm-2 col-4"><img src="./static/img/logo/apple.png" alt=""
+                        class="social-apps"></div>
+                <div class="col-md-2 col-lg-2 col-sm-2 col-4"><img src="./static/img/logo/playstore.png" alt=""
+                        class="social-apps"></div>
+                <div class="col-md-2 col-lg-2 col-sm-2 col-4"><img src="./static/img/logo/amazone.png" alt=""
+                        class="social-apps"></div>
+                <div class="col-md-2 col-lg-2 col-sm-2 col-0"></div>
+                <div class="col-md-1 col-lg-1 col-sm-1 col-0"></div>
+            </div>
+        </div>
+    </section>
+    <!-- card section  -->
+    <section class="banner-5">
+        <div class="container banner-5-1">
+            <div class="row">
+                <p class="text-center loved ">Loved by children, educators and parents in</p>
+                <div class=" col-md-6 col-lg-4 col-sm-12 col-12  mt-4">
+                    <div class="card card-1-2 shadow  padding-card-ssm">
+                        <img src="./static/img/small-banner2.jpg" class="card-img-top card-img-top-1-2" alt="...">
+                        <div class="card-body">
+                            <p class="card-text card-text-2 text-center ">Elementary and middle schools</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-12 col-12 mt-4">
+                    <div class="card card-1-2 shadow padding-card-ssm">
+                        <img src="./static/img/small-banner3.jpg" class="card-img-top card-img-top-1-2" alt="...">
+                        <div class="card-body">
+                            <p class="card-text card-text-2 text-center ">Kindergartens</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-12 col-12 mt-4">
+                    <div class="card card-1-2 shadow padding-card-ssm">
+                        <img src="./static/img/small-banner4.jpg" class="card-img-top card-img-top-1-2" alt="...">
+                        <div class="card-body">
+                            <p class="card-text card-text-2 text-center">After School activities</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-12 col-12 mt-4">
+                    <div class="card card-1-2 shadow padding-card-ssm">
+                        <img src="./static/img/small-banner1.jpg" class="card-img-top card-img-top-1-2" alt="...">
+                        <div class="card-body">
+                            <p class="card-text card-text-2 text-center ">Elementary and middle schools</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-12 col-12 mt-4">
+                    <div class="card card-1-2 shadow padding-card-ssm">
+                        <img src="./static/img/small-image1.png" class="card-img-top card-img-top-1-2" alt="...">
+                        <div class="card-body">
+                            <p class="card-text card-text-2 text-center ">Kindergartens</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-12 col-12 mt-4">
+                    <div class="card card-1-2 shadow padding-card-ssm">
+                        <img src="./static/img/small-banner5.jpg" class="card-img-top card-img-top-1-2" alt="...">
+                        <div class="card-body">
+                            <p class="card-text card-text-2 text-center ">After School activities</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <h4 class="text-center mt-5 pt-5">Looking for STEM & Coding solutions for your classroom?<br>
+            ‍Visit our dedicated page for educators to browse through our <br> curriculum, resources and additional
+            offers</h4>
+        <div class="d-flex justify-content-center mt-5 pt-3">
+            <button class="btn  fw-bold  p-4 btn-success" id="shop-now-2" type="submit">Learn more</button>
+        </div>
+        </div>
+    </section>
+
+    <!-- why learning section  -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="full-text col-md-12 col-lg-12 col-sm-12 col-12">
+                    <h1 class="text-center fs-1 fw-bold mt-5">Why learning to code is important <br> for children.</h1>
+                    <h3 class="text-center  text-muted  fw-bold mt-3 pro">Programming means finding solutions to
+                        problems. While <br> learning to code, children also learn to work independently and <br> to
+                        solve tasks in a creative way. Educational robotics tools like <br> Robo Wunderkind are ideal to
+                        engage children in programming <br> through play, equipping them with a skill set that helps
+                        them to <br> thrive in a modern world. </h3>
+                </div>
+            </div>
+    </section>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="full-image shadow col-md-12 col-lg-12 col-sm-12 col-12">
+            </div>
+        </div>
+    </div>
+
+    <!-- skill section  -->
+    <section class="threesection-para">
+        <div class="container-fluid mt-5">
+            <div class="row ">
+                <div class="col-12 col-md-4 col-lg-4 col-s-4 ">
+                    <h4 class="text-center text-muted"><span class="fw-bold"> Problem Solving:</span> Robo Wunderkind
+                        teaches children to see the flip side of a
+                        problem – a challenge they can’t wait to tackle. Challenges close to real-life allow them to
+                        figure it out on their own by trying over and over again.</h4>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-s-4">
+                    <h4 class="text-center text-muted"><span class="fw-bold">Creative thinking:</span> With Robo
+                        Wunderkind anything that can be imagined can be
+                        built, coded and controlled. It can unlock children’s creativity in unknown ways. Instead of
+                        following a set of instructions, they can experiment and see their creations come to life.</h4>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-s-4">
+                    <h4 class="text-center text-muted"><span class="fw-bold">Learning STEM:</span> With our school
+                        curriculum and resources for home, children
+                        can learn about Science, Technology, Engineering and Math. Fun and playful STEM education is the
+                        key to children’s interest and engagement, and that’s exactly what you can achieve with Robo
+                        Wunderkind.</h4>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-md-4 col-lg-4 col-s-4">
+                    <h4 class="text-center text-muted"><span class="fw-bold">Logical thinking:</span> When building,
+                        coding and playing with Robo Wunderkind,
+                        children have to break down tasks into smaller bits. This teaches them the connection between
+                        cause and consequence, abstraction of involved parts and how to assign properties to individual
+                        events.</h4>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-s-4">
+                    <h4 class="text-center text-muted"><span class="fw-bold">Cooperative play:</span> Robo Wunderkind
+                        teaches children that their peers are
+                        teammates instead of competitors. By joining forces, they can come up with the best project or
+                        solution, teaching them vital communication & negotiation skills.</h4>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-s-4">
+                    <h4 class="text-center text-muted"><span class="fw-bold">Computer Science:</span> Tech isn’t going
+                        anywhere. So the sooner the children know
+                        how to use it positively and responsibly the better. Robo Wunderkind teaches them coding, how
+                        systems and computers work, and much more.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- learning section  -->
+    <div class="container-fluid banner-7">
+        <div class="row ">
+            <div class="col-md-6 col-lg-6 col-sm-12 col-12">
+                <div class="col-md-12  col-lg-12 col-sm-12 col-12">
+                    <h1 class="Learning ms-5 mt-5"> <span class="color-heading">Learning by doing:</span><br>
+                        A true hands-on learning tool <br> for schools and home</h1>
+                </div>
+                <div class="row mt-5 ">
+                    <div class=" col-lg-6 col-12 col-md-12 col-sm-6">
+                        <div class="card ms-3 border-0 col-6 col-md-6 col-sm-6" style="width: 18rem;height: 170px;">
+                            <div class="card-body card-image">
+                                <div class="row ">
+                                    <div class="col-md-2 col-2 col-sm-2"><img src="./static/img/logo/card-icon.svg"
+                                            alt="" srcset="">
+                                    </div>
+                                    <div class=" col-md-12 col-lg-12 col-sm-10 col-10">
+                                        <p class="card-text text-muted fs-5 fw-bold">Developed in collaboration with
+                                            educators
+                                            from various disciplines</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-6 col-12 col-md-12 col-sm-6">
+                        <div class="card ms-3  border-0 col-6 col-md-6 col-sm-6" style="width: 18rem; height: 170px;">
+                            <div class="card-body card-image">
+                                <div class="row">
+                                    <div class="col-md-2 col-2 col-sm-2 "><img src="./static/img/logo/card-icon.svg"
+                                            alt="" srcset="">
+                                    </div>
+                                    <div class="col-md-12 col-lg-12 col-sm-10 col-10">
+                                        <p class="card-text text-muted fs-5 fw-bold">Promotes child-centered learning
+                                            and discovery through play</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3 ">
+                    <div class=" col-lg-6 col-12 col-md-12 col-sm-6">
+                        <div class="card ms-3 border-0 col-12 col-md-12 col-sm-12" style="width: 18rem;height: 170px;">
+                            <div class="card-body card-image">
+                                <div class="row">
+                                    <div class="col-md-2 col-2 col-sm-2"><img src="./static/img/logo/card-icon.svg"
+                                            alt="" srcset="">
+                                    </div>
+                                    <div class="col-md-12 col-lg-12 col-sm-10 col-10">
+                                        <p class="card-text text-muted fs-5 fw-bold">Considers the stages of children’s
+                                            development and their respective significant features</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-6 col-12 col-md-12 col-sm-6">
+                        <div class="card ms-3 border-0 col-12 col-md-12 col-sm-12" style="width: 18rem; height: 170px;">
+                            <div class="card-body card-image">
+                                <div class="row">
+                                    <div class="col-md-2 col-2 col-sm-2"><img src="./static/img/logo/card-icon.svg"
+                                            alt="" srcset="">
+                                    </div>
+                                    <div class="col-md-12 col-lg-12 col-sm-10 col-10">
+                                        <p class="card-text text-muted fs-5 fw-bold">Encourages learning through
+                                            experiences and active exploration</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3 ">
+                    <div class=" col-lg-6 col-12 col-md-12 col-sm-6 display-none">
+                        <div class="card ms-3 border-0 col-12 col-md-12 col-sm-12" style="width: 18rem;height: 170px;">
+                            <div class="card-body card-image ">
+                                <div class="row">
+                                    <div class="col-md-2 col-12"><img src="./static/img/logo/card-icon.svg" alt=""
+                                            srcset="">
+                                    </div>
+                                    <div class="col-md-12 col-lg-12 col-sm-10 col-10 ">
+                                        <p class="card-text text-muted fs-5 fw-bold">Pedagogical approach based on
+                                            Constructivism</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-6 col-12 col-md-12 col-sm-6">
+                    </div>
+
+                </div>
+                <button class="btn fw-bold col-md-2 ms-5 mb-5" id="shop-now-3" type="submit">Shop now</button>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <div class="banner-7-backgeound-image"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- parents and teachers say about us section  -->
+    <div class="container-fluid banner-8">
+        <div class="row">
+            <div class="col-md-12 col-lg-12 col-sm-12 col-12">
+                <p class="fs-1 fw-bold text-center mt-5">What parents and teachers say about us</p>
+            </div>
+            <div class="mt-5 row">
+                <div class="col-md-12 col-lg-4 col-sm-12 col-12">
+                    <p class="fs-3 fw-bold text-center">marc faould</p>
+                    <p class="text-center">This is such a unique and amazing toy for kids who love to explore. So many
+                        options that you can do with it. Great quality, super durable material. Great value for money
+                        and definitely a fun gadget for all age groups. The app is super useful She loves building
+                        things with Lego's and doing puzzles so we thought this might be the right gift great
+                        parent/child activity.</p>
+                </div>
+                <div class="col-md-12 col-lg-4 col-sm-12 col-12">
+                    <p class="fs-3 fw-bold text-center">jouhira otiz</p>
+                    <p class="text-center">I've been facilitating a coding club at my school for Pre-K and Kindergarten
+                        students, thus I've been looking for educational materials that can help my students learn about
+                        computer science while engaging in hands-on-activities. Robo Wunderkind is a great addition to
+                        our club since it promotes collaboration, communication, creativity and critical thinking. </p>
+                </div>
+                <div class="col-md-12 col-lg-4 col-sm-12   col-12 ">
+                    <p class="fs-3 fw-bold text-center">maic</p>
+                    <p class="text-center">We purchased this kit as a gift for our 5 YO granddaughter. She loves
+                        building things with Lego's and doing puzzles so we thought this might be the right gift for her
+                        5th birthday. She thinks it's great fun. She is pretty challenged by all of the possibilities
+                        that this kit presents. I think that this can be a great parent/child activity for a 5 YO and a
+                        very long . </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section -->
+    <section class="container-fluid banner-8">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-6 col-12">
+                <div class="row mt-5">
+                    <div class="col-md-0 col-lg-5 col-sm-0 col-0"></div>
+                    <div class="col-md-12  col-lg-7 col-sm-12 col-12 last-part">
+                        <p class="fs-1 fw-bold">Don’t miss out on our news!</p>
+                        <p class="fs-5 text-muted">Get our newest updates, be the first to know about the latest offers,
+                            and take part in competitions from Robo Wunderkind.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-sm-6 col-6 col-12  mt-5  " id="contact">
+                <div class="row ">
+                    <div class="col-md-0 col-lg-2 col-sm-0 col-0 "></div>
+                    <div class="col-md-12 col-lg-10 col-sm-12  col-12 ">
+                        <form action="#" name="form" onsubmit="return validate()">
+                            <div class="col-md-0 col-lg-7 col-sm-0  col-12 input rounded-3 mt-0"><input type="text"
+                                    class="input-box text-muted " name="fname" placeholder="First name*"></div>
+                            <div class="col-md-0 col-lg-7 col-sm-0  col-12 input rounded-3 mt-2"><input type="text"
+                                    class="input-box text-muted " name="lname" placeholder="Last name*"></div>
+                            <div class="col-md-0 col-lg-7 col-sm-0  col-12 input rounded-3 mt-2"><input type="text"
+                                    class="input-box text-muted " name="email" placeholder="Email Address*">
+                            </div>
+                            <div class="col-md-0 col-lg-7 col-sm-0  col-12 input rounded-3 mt-2"><select name="lang"
+                                    id="" class="input-box-select text-muted">
+                                    <option value="English">&nbsp;&nbsp; English*</option>
+                                    <option value="German"> &nbsp;&nbsp;German*</option>
+                                </select></div>
+                            <div class="col-md-0 col-lg-7 col-sm-0  col-12 input rounded-3 mt-2">
+                                <select name="temp" id="" class="input-box-select text-muted">
+                                    <option value="parent">&nbsp;&nbsp; parent*</option>
+                                    <option value="educator"> &nbsp;&nbsp;educator*</option>
+                                </select>
+                            </div>
+                            <button class="btn fw-bold  p-2 mt-5 " id="shop-now-6" type="submit">sign up</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class=" container-fluid">
+        <div class="row ">
+            <div class="col-md-12 col-lg-12 col-sm-12 col-12 footer">
+                <p class="d-flex justify-content-center  text-muted fw-bold ">@copyright Designed with love in Vienna ©
+                    Robo Wunderkind 2022.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./static/js/main.js"></script>
+
+</body>
+
+</html>
