@@ -9,3 +9,8 @@ with open('index.html',encoding="utf8") as html_file:
 
 toggler = soup.find('button' ,class_='navbar-toggler')
 print(toggler)
+
+
+for image in soup.find_all('img'):
+  print(image)
+  print(image['src'])
