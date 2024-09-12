@@ -48,7 +48,6 @@ Web scraping geek for geek - https://www.geeksforgeeks.org/what-is-web-scraping-
 
 example web scraping youtube video - https://www.youtube.com/watch?v=ng2o98k983k
 
-
 ## pip
 ``` pip install beautifulsoup4 ```
 
